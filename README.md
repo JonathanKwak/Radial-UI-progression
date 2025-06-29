@@ -1,4 +1,6 @@
 # Radial UI progression
+![circular progression demo](https://github.com/user-attachments/assets/cc504cc4-9942-4d62-b792-3502b681a090)
+
 There currently exists an engine limitation for the ROBLOX Studio engine, where developers cannot quickly create radial UI masks. In layman's terms, you can't make those circular progression bars very easily.
 However, you *can* mask half of an object and have a rotating UI masking feature with an object called `UIGradient`. This workaround involves setting 50% of the image to completely invisible, then setting the other 50% to visible. That way, you can rotate the `UIGradient` and have it hide any half of the image.
 
