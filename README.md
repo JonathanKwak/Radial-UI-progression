@@ -10,9 +10,10 @@ Keeping this in mind, a workaround for creating radial UI masks is to have two U
 - Independent: The percent progress of the bar can be set externally, and everything else will be handled internally. In essence, all you need to do is change the `Percentage` `NumberValue` to some number between 0-1, and the code would handle everything for you.
 
 ## Setup
-- Import the `.rbxm` file into any UI element in-game
-- Change the value of the `Percentage` `NumberValue` to any number between 0-1 (corresponding to 0% and 100%).
-- Everything else will be handled
+1. Import the `.rbxm` file into any UI element in-game
+2. Remove all the lines of code past "`-- Test code`" to remove the testing code
+3. Change the value of the `Percentage` `NumberValue` to any number between 0-1 (corresponding to 0% and 100%).
+4. Everything else will be handled
 
 ## Limitations
 
