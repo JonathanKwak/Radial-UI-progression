@@ -13,7 +13,8 @@ Keeping this in mind, a workaround for creating radial UI masks is to have two U
 1. Import the `.rbxm` file into any UI element in-game
 2. Remove all the lines of code past "`-- Test code`" to remove the testing code
 3. Change the value of the `Percentage` `NumberValue` to any number between 0-1 (corresponding to 0% and 100%).
-4. Everything else will be handled
+4. Optionally, you can remove the `NumberText` text label and remove the line that mentions that text label object if you don't want the progress number to be visible.
+5. Everything else will be handled
 
 ## Limitations
 
